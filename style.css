@@ -1,0 +1,46 @@
+header {
+	background: #09b4a0;
+
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+
+.imagen-de-fondo{
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.imagen-de-fondo img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.footer{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+  .body{
+    color: black;
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* Estilos CSS para pantallas pequeñas */
+    .imagen-de-fondo {
+      background-size: contain;
+    }
+  }
